@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Notobd/stats-prevew-card.git](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://vercel.com/emmanuels-projects-426f3dc0/stats-prevew-card](https://your-live-site-url.com)
 
 ### Built with
 
