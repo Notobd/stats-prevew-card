@@ -162,8 +162,10 @@ h1 + p {
   }
 }
 @media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
   main {
-    width: 100%;
     padding: 0;
   }
   section {
@@ -207,8 +209,7 @@ h1 + p {
   }
   .mobile-image {
     order: 1;
-    height: 197px;
-    /* object-fit: contain; */
+    height: 197.5px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
   }
