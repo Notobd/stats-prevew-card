@@ -54,7 +54,7 @@ h1 + p {
   color: hsla(0, 0%, 100%, 0.75);
 }
 #inlineText {
-  color: hsl(277, 64%, 70%);
+  color: hsl(277, 64%, 65%);
 }
 #statsInsight {
   display: flex;
@@ -80,7 +80,7 @@ h1 + p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: hsla(270, 60%, 30%, 0.7);
+  background-color: hsla(280, 90%, 30%, 0.5);
   z-index: 1;
 }
 .desktop-image,
@@ -101,16 +101,16 @@ h1 + p {
 @media (min-width: 1024px) {
   .insight {
     padding: 50px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
   }
   h1 + p {
     font-size: 12px;
   }
   .desktop-image {
     height: 333px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
   }
   .mobile-image {
     display: none;
@@ -124,12 +124,12 @@ h1 + p {
     order: 2;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
   }
   .mobile-image {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     height: 262px;
     order: 1;
   }
@@ -162,6 +162,10 @@ h1 + p {
   }
 }
 @media (max-width: 767px) {
+  main {
+    width: 100%;
+    padding: 0;
+  }
   section {
     flex-direction: column;
   }
@@ -169,8 +173,8 @@ h1 + p {
     order: 2;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
   }
   .desktop-image {
     display: none;
@@ -178,32 +182,34 @@ h1 + p {
   h1 {
     text-align: center;
     width: 15ch;
-    font-size: 28px;
+    font-size: 21px;
     line-height: 1.2;
   }
   h1 + p {
     text-align: center;
     width: 27ch;
     line-height: 1.8;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
   }
   #statsInsight {
     flex-direction: column;
-    font-size: 28px;
-    font-weight: 650;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
     text-align: center;
   }
   .stats-text {
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 2px;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 4px;
   }
   .mobile-image {
     order: 1;
-    height: 245px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    height: 197px;
+    /* object-fit: contain; */
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
   }
 }
