@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Notobd/stats-prevew-card.git](https://your-solution-url.com)
-- Live Site URL: [https://vercel.com/emmanuels-projects-426f3dc0/stats-prevew-card](https://your-live-site-url.com)
+- Live Site URL: [https://stats-prevew-card.vercel.app/](https://your-live-site-url.com)
 
 ### Built with
 
@@ -55,6 +55,7 @@ Learnt how to use overlay on this projec and it seems I am getting better with m
   height: 100%;
   background-color: hsla(270, 60%, 30%, 0.7);
   z-index: 1;
+}
 ```
 
 ## Author
